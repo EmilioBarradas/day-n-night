@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "run-p routify snp",
-    "build": "routify -b && routify export && snowpack build",
+    "build": "routify -b && snowpack build",
     "routify": "routify",
     "snp": "snowpack dev"
   },
